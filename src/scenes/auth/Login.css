@@ -1,0 +1,62 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141b2d 0%, #6e8efb 60%, #a777e3 100%);
+}
+.login-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.2);
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #6e8efb;
+}
+.login-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.login-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(90deg, #6e8efb, #a777e3);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.login-btn:hover {
+  background: linear-gradient(90deg, #a777e3, #6e8efb);
+}
+.login-link {
+  margin-top: 1rem;
+  color: #6e8efb;
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .login-box {
+    padding: 1rem;
+    max-width: 95vw;
+  }
+  .login-title {
+    font-size: 1.5rem;
+  }
+}
